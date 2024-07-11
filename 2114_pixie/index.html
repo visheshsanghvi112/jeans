@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <title>Jeans & Co</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/tooplate-main.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+    <style type="text/css">
+        /* Navbar Styles */
+        .navbar {
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-brand img {
+            max-width: 120px; /* Adjust as needed */
+            height: auto;
+        }
+
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem;
+        }
+
+        /* Banner Styles */
+        .banner {
+            background: url('assets/images/banner-bg.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 100px 0;
+            color: #fff;
+            text-align: center;
+        }
+
+        .banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .banner .main-button a {
+            color: #fff;
+            background-color: #007bff;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            text-decoration: none;
+        }
+
+        .banner .main-button a:hover {
+            background-color: #0056b3;
+        }
+
+        /* Featured Items Styles */
+        .featured-items {
+            padding: 3rem 0;
+        }
+
+        .featured-items .section-heading h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .featured-item {
+            text-align: center;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 0.5rem;
+            background-color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .featured-item img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 0.5rem;
+        }
+
+        .featured-item h4 {
+            margin: 0.5rem 0;
+        }
+
+        .featured-item:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Subscribe Form Styles */
+        .subscribe-form {
+            background-color: #f8f9fa;
+            padding: 3rem 0;
+        }
+
+        .subscribe-form .section-heading h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .subscribe-form form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .subscribe-form input.form-control {
+            margin-bottom: 1rem;
+        }
+
+        .subscribe-form button {
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            border-radius: 0.25rem;
+        }
+
+        .subscribe-form button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Footer Styles */
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer .logo img {
+            max-width: 150px;
+            margin-bottom: 1rem;
+        }
+
+        .footer-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-menu ul li {
+            display: inline;
+            margin: 0 0.5rem;
+        }
+
+        .footer-menu ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer-menu ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-icons ul li {
+            display: inline;
+            margin: 0 0.5rem;
+        }
+
+        .social-icons ul li a {
+            color: #fff;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+
+        .social-icons ul li a:hover {
+            color: #007bff;
+        }
+
+        /* Sub Footer Styles */
+        .sub-footer {
+            background-color: #212529;
+            color: #adb5bd;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        .sub-footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Pre Header -->
+    <!-- <div id="pre-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <span>Suspendisse laoreet magna vel diam lobortis imperdiet</span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo-color.png" alt="Jeans & Co Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="caption">
+              <h2>Jeans Website</h2>
+              <div class="line-dec"></div>
+              <div class="main-button">
+                <a href="#">Order Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <!-- Featured Starts Here -->
+    <div class="featured-items">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Featured Items</h1>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-01.jpg" alt="Item 1">
+                  <h4>Proin vel ligula</h4>
+                  <h6>$15.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-02.jpg" alt="Item 2">
+                  <h4>Erat odio rhoncus</h4>
+                  <h6>$25.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-03.jpg" alt="Item 3">
+                  <h4>Integer vel turpis</h4>
+                  <h6>$35.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-04.jpg" alt="Item 4">
+                  <h4>Sed purus quam</h4>
+                  <h6>$45.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-05.jpg" alt="Item 5">
+                  <h4>Morbi aliquet</h4>
+                  <h6>$55.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-06.jpg" alt="Item 6">
+                  <h4>Urna ac diam</h4>
+                  <h6>$65.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-04.jpg" alt="Item 7">
+                  <h4>Proin eget imperdiet</h4>
+                  <h6>$75.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-05.jpg" alt="Item 8">
+                  <h4>Nullam risus nisl</h4>
+                  <h6>$85.00</h6>
+                </div>
+              </a>
+              <a href="single-product.html">
+                <div class="featured-item">
+                  <img src="assets/images/item-06.jpg" alt="Item 9">
+                  <h4>Cras tempus</h4>
+                  <h6>$95.00</h6>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Featured Ends Here -->
+
+    <!-- Subscribe Form Starts Here -->
+    <div class="subscribe-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <div class="line-dec"></div>
+              <h1>Subscribe to Jeans & Co now!</h1>
+            </div>
+          </div>
+          <div class="col-md-8 offset-md-2">
+            <div class="main-content">
+              <p>Integer vel turpis ultricies, lacinia ligula id, lobortis augue. Vivamus porttitor dui id dictum efficitur. Phasellus vel interdum elit.</p>
+              <div class="container">
+                <form id="subscribe" action="" method="get">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" 
+                        onfocus="if(this.value == 'Your Email...') { this.value = ''; }" 
+                        onBlur="if(this.value == '') { this.value = 'Your Email...';}"
+                        value="Your Email..." required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-md-5">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="button">Subscribe Now!</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe Form Ends Here -->
+
+    <!-- Footer Starts Here -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="logo">
+              <img src="assets/images/header-logo.png" alt="Jeans & Co Footer Logo">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">How It Works?</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+    <!-- Sub Footer Starts Here -->
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2024 Jeans & Co - Design: <a rel="nofollow" href="https://visheshsanghvi.netlify.app">Jeans & Co</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sub Footer Ends Here -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+
+    <script language="text/Javascript">
+      cleared[0] = cleared[1] = cleared[2] = 0;
+      function clearField(t) {
+          if (!cleared[t.id]) {
+              cleared[t.id] = 1;
+              t.value = '';
+              t.style.color = '#fff';
+          }
+      }
+    </script>
+</body>
+
+</html>
